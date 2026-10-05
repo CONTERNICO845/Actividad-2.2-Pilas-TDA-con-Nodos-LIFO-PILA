@@ -14,34 +14,6 @@ Este repositorio contiene el código fuente de la **Práctica 2.2: Pilas TDA con
 
 ---
 
-## 📋 Descripción del Proyecto
-
-El sistema implementa un TDA Pila desde cero **sin utilizar colecciones de Java** (`Stack`, `ArrayList`, `LinkedList`, `Deque` ni arreglos). La estructura se construye manualmente mediante referencias entre objetos `Nodo`, y expone las siguientes operaciones fundamentales:
-
-| Operación | Descripción |
-|-----------|-------------|
-| **Push (Apilar)** | Inserta un libro en el tope de la pila |
-| **Pop (Desapilar)** | Extrae y devuelve el libro del tope |
-| **Peek (Ver Tope)** | Consulta el tope sin modificar la estructura |
-| **isEmpty** | Verifica si la pila está vacía |
-| **Size (Tamaño)** | Devuelve el número de elementos apilados |
-| **Clear (Vaciar)** | Restablece la pila a su estado inicial |
-
----
-
-## 🗂️ Estructura del Proyecto
-
-```
-pilafifo/src/
-├── back_end/
-│   ├── Libro.java       → Clase de dominio: título, autor, año, ISBN
-│   ├── Nodo.java        → Nodo dinámico con referencia al dato y al nodo inferior
-│   └── Pila.java        → TDA Pila LIFO implementado con nodos enlazados
-└── front_end/
-    └── Ventana.java     → Interfaz gráfica en Java Swing
-```
-
----
 
 ## 🏗️ Arquitectura
 
@@ -53,9 +25,6 @@ El proyecto sigue una arquitectura de **tres capas desacopladas**:
 
 ---
 
-## 🛠️ Instrucciones de Ejecución
-
-Para probar este proyecto en tu entorno local, sigue estos pasos:
 
 ### 1. Clonar el repositorio
 
@@ -63,23 +32,6 @@ Para probar este proyecto en tu entorno local, sigue estos pasos:
 git clone https://github.com/CONTERNICO845/Actividad-2.2-Pilas-TDA-con-Nodos-LIFO-PILA.git
 ```
 
-### 2. Abrir en NetBeans
-
-- Abre **NetBeans IDE**.
-- Ve a `File → Open Project` y selecciona la carpeta `pilafifo` dentro del repositorio clonado.
-- NetBeans detectará automáticamente el proyecto (contiene `nbproject/`).
-
-### 3. Ejecutar
-
-- Haz clic en el botón **Run Project (F6)**.
-- La ventana principal de la aplicación se abrirá automáticamente.
-
-### Requisitos
-
-- **Java JDK 17** o superior
-- **NetBeans IDE 17+** (recomendado) o cualquier IDE compatible con proyectos Ant
-
----
 
 ## ✅ Validaciones implementadas
 

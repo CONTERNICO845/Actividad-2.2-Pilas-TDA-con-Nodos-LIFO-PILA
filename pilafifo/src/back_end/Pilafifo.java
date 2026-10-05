@@ -1,20 +1,12 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package back_end;
 
 /**
+ * Clase de arranque original — el punto de entrada del proyecto ha sido
+ * trasladado a {@link front_end.Ventana#main(String[])}.
  *
- * @author VictorL
+ * Esta clase se conserva para no alterar la estructura de paquetes de NetBeans.
  */
 public class Pilafifo {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+    // Punto de entrada movido a front_end.Ventana
+    private Pilafifo() { /* no instanciable */ }
 }
